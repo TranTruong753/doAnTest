@@ -318,9 +318,10 @@ public class LoginFRM extends javax.swing.JFrame {
                 orderBook.setVisible(true);
                 dispose();
                 // hiển thị frame của staff
-            } else if (acc.getPosition().equals("stocker")) {
-                // hển thị frame của stocker
-            }
+            } 
+//            else if (acc.getPosition().equals("stocker")) {
+//                // hển thị frame của stocker
+//            }
         } else {
             this.lbCheck.setText("Tài khoản hoặc mật khẩu không đúng!");
         }

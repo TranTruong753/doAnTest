@@ -25,8 +25,10 @@ import java.util.logging.Logger;
 public class ReadDataFromSQL {
 
     private static final String USER = "sa";
-    private static final String PASSWORD = "01254339970a";
-    private static final String SERVER_NAME = "DESKTOP-BQLF5L6\\NGUYENCONGDUC";
+//    private static final String PASSWORD = "01254339970a";
+//    private static final String SERVER_NAME = "DESKTOP-BQLF5L6\\NGUYENCONGDUC";
+    private static final String PASSWORD = "123456";
+    private static final String SERVER_NAME = "LAPTOP-1A0D861M\\TRANQUANGTRUONG";
     private static final String DATABASE_NAME = "sqlbookstore";
     private static final int PORT = 1433;
 

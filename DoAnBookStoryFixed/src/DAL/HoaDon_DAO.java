@@ -23,7 +23,7 @@ public class HoaDon_DAO {
     try {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         String dbUrl = "jdbc:sqlserver://localhost:1433;DatabaseName = sqlbookstore;encrypt=false";
-        String username = "sa"; String password= "01254339970a";
+        String username = "sa"; String password= "123456";
         con = (Connection) DriverManager.getConnection(dbUrl, username, password);   
         return true;
         }catch (Exception ex) {
