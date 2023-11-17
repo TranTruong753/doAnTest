@@ -16,7 +16,8 @@ public class Check_Error implements Check_Interface{
     @Override
     public boolean check_NumberPhone(String str) {
       Pattern p_Viettel=Pattern.compile("^03[2-9][0-9]{7}$");
-      Pattern p_Mobifone=Pattern.compile("^07(0|9|7|6|8)[0-9]{7}$");
+      Pattern p_Mobifone=Pattern.compile("^07(0|9|7|6|8)[0-9]{7"
+              + "}$");
       Pattern p_Vinaphone=Pattern.compile("^08[1-5][0-9]{7}$");
       Pattern p_Vietnamobile=Pattern.compile("^05(6|8)[0-9]{7}$");
       Pattern p_Gmobile=Pattern.compile("^059[0-9]{7}$");
